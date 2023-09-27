@@ -1,0 +1,7 @@
+RedApple $2.00
+RoyalGalaApple $1.50
+HoneyCrisp $1.75
+RipeBanana $1.75
+Banana $2.00
+MonkeyBanana $2.50
+
