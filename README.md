@@ -34,7 +34,7 @@ The Java application in this repository is designed to demonstrate the factory p
 The GroceryProductFactory.java class is crucial for creating instances of specific grocery products, allowing for easy extensibility when adding new product types to the store.
 Usage
 
-OUTPUT OF THE TEST CODE: 
+4. OUTPUT OF THE TEST CODE: 
 
 ![image](https://github.com/Ayushpatel2003/SoftwareDesignAssignment1/assets/124087552/5708ce9b-67a5-43d0-9355-951c83cc691d)
 
