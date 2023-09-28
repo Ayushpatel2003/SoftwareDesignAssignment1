@@ -23,6 +23,10 @@ The product_list.txt file, located in the src folder, contains a list of product
     The left column represents the product name.
     The right column represents the price of the product.
 
+3. UML Diagram
+
+The UML diagram for this grocery store application can be found in the src folder with the filename UML_Assignment1.png. This diagram provides a visual representation of the class relationships and structure of the application, making it easier to understand the interactions between different classes and objects.
+
 Application Overview
 
 The Java application in this repository is designed to demonstrate the factory pattern for creating grocery products. When executed, the main.java file is responsible for initiating the application and interacting with various grocery products such as apples and bananas.
