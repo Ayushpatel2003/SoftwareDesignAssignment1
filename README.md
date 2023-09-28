@@ -2,6 +2,9 @@ Repository Name: Grocery Store Java Application
 Description
 
 This repository contains a Java application for managing a grocery store's product inventory. The application utilizes the factory design pattern to create various grocery products and interact with them. Additionally, it includes a product list stored in a text file for reference.
+
+Summary of Code Files:Main.java:The code is reading a product list from a file, creating product objects based on the data in the file, and setting their prices using a factory patternApple.java / Bananajava / UnripeApple.java / UnripeBanana.java:This code creates an instance of UnripeApple, UnripeBanana, Apple and Banana, sets its price, and then retrieves and prints its name and price.ProductFactoryProducer.javaObtain's the appropriate factory, and then use that specific factory (RipeProdctFactory / UnripeProductFactory) to create instances of specific products
+
 Repository Structure
 
 The repository is organized into the following folders and files:
