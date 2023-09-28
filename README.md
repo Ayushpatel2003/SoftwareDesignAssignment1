@@ -36,6 +36,8 @@ Usage
 
 OUTPUT OF THE TEST CODE: 
 
+![image](https://github.com/Ayushpatel2003/SoftwareDesignAssignment1/assets/124087552/5708ce9b-67a5-43d0-9355-951c83cc691d)
+
 
 
 To run the grocery store application, compile the Java source files and execute the main.java file. This application will read the product list from product_list.txt and demonstrate the factory pattern by creating and working with different grocery products.
