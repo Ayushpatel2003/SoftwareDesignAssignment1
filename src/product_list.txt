@@ -1,5 +1,4 @@
-Apple $2.00
-Peach $1.75
-Mango $1.75
-Banana $2.00
-Orange $2.50
+Ripe Apple $2.00
+Ripe Banana $2.50
+Unripe Apple $1.50
+Unripe Banana $1.75

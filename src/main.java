@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 class Main {
     public static void main(String[] args) {
-
-        GroceryProductFactory factory = new GroceryProductFactory();
-
         try {
             Scanner sc = new Scanner(new File("./product_list.txt"));
 
             while(sc.hasNextLine()){
+                String ripe = sc.next();
                 String name = sc.next();
                 String price = sc.next();
+                GroceryProductFactory factory = ProductFactoryProducer.getFactory(
+                    ripe.equals("Ripe")
+                );
 
                 Product product = factory.createProduct(name);
                 System.out.println("Created product type "+product.name+" in main inventory");

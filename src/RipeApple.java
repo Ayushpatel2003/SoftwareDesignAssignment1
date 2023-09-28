@@ -1,12 +1,13 @@
-public class Banana extends Product {
+public class RipeApple extends Product {
 
-    public Banana(){
-        this.name = "Banana";
+    public RipeApple(){
+        this.name = "RipeApple";
     }
 
     @Override
     public void setPrice(double price){
         this.price = price;
     }
+
 
 }
