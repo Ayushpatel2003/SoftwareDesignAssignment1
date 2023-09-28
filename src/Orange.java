@@ -1,7 +1,7 @@
-public class Banana extends Product {
+public class Orange extends Product {
 
-    public Banana(){
-        this.name = "Banana";
+    public Orange(){
+        this.name = "Orange";
     }
 
     @Override

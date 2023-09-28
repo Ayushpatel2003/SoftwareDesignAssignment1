@@ -13,15 +13,18 @@ class Main {
             while(sc.hasNextLine()){
                 String name = sc.next();
                 String price = sc.next();
-                System.out.println(name);
-                System.out.println(price);
-                // String price = sc.next();
+
+                Product product = factory.createProduct(name);
+                System.out.println("Created product type "+product.name+" in main inventory");
+
+                product.setPrice( Double.parseDouble(price.substring(1)) );
+                System.out.println("Set price "+product.price+" for "+product.name);
             }
+
+            sc.close();
         } catch (FileNotFoundException e){
             System.out.println("Product list file not found");
         }
-
-        // factory.createProduct("Apple");
 
     }
 }

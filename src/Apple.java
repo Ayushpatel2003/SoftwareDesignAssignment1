@@ -1,8 +1,7 @@
 public class Apple extends Product {
 
-    @Override
-    public void productName(String name){
-        this.name = name;
+    public Apple(){
+        this.name = "Apple";
     }
 
     @Override
