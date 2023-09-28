@@ -34,6 +34,10 @@ The Java application in this repository is designed to demonstrate the factory p
 The GroceryProductFactory.java class is crucial for creating instances of specific grocery products, allowing for easy extensibility when adding new product types to the store.
 Usage
 
+OUTPUT OF THE TEST CODE: 
+
+
+
 To run the grocery store application, compile the Java source files and execute the main.java file. This application will read the product list from product_list.txt and demonstrate the factory pattern by creating and working with different grocery products.
 
 Feel free to modify the product list or extend the application to include additional grocery product types as needed.
