@@ -1,7 +1,6 @@
-RedApple $2.00
-RoyalGalaApple $1.50
-HoneyCrisp $1.75
-RipeBanana $1.75
+Apple $2.00
+Pear $1.50
+Peach $1.75
+Mango $1.75
 Banana $2.00
-MonkeyBanana $2.50
-
+Orange $2.50
